@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>title</title>
+    <title>Своя Клиника</title>
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <script src="/js/libs.min.js"></script>
     <script src="/js/main.js"></script>
@@ -12,57 +13,102 @@
     <header> 
       <div class="container">
         <div class="header-row"> <a class="logo" href="/"><img class="logo-img" src="/img/logo.png"></a>
-          <nav class="navigation"> <a class="nav-item" href="#">О клинике</a><a class="nav-item" href="#">Косметология</a><a class="nav-item" href="#">Пластическая хирургия</a><a class="nav-item" href="#">Трихология</a><a class="nav-item" href="#">Цены</a><a class="nav-item" href="#">Контакты</a></nav>
+          <nav class="navigation"> <a class="nav-item active" href="#">О клинике</a><a class="nav-item" href="#">Косметология</a><a class="nav-item" href="#">Пластическая хирургия</a><a class="nav-item" href="#">Трихология</a><a class="nav-item" href="#">Цены</a><a class="nav-item" href="#">Контакты</a></nav>
           <div class="worktime"><img class="worktime-icon" src="/img/worktime.png"></div><a class="bvi-widget"><img class="bvi-icon" src="/img/bvi.png"></a>
           <div class="socials"><a class="social social--tlgm" href="#"><img class="social-icon" src="/img/icon-tlgm.png"></a><a class="social social--vk" href="#"><img class="social-icon" src="/img/icon-vk.png"></a></div>
           <form class="search" method="POST"> 
             <input class="search-field" type="text">
-            <input class="search-submit" type="submit">
+            <input class="search-submit" type="submit" value="">
           </form>
         </div>
       </div>
+      <section class="promo"> 
+        <div class="container"> 
+          <div class="swiper-block js__promo">
+            <div class="swiper" id="promo-slider"> 
+              <div class="swiper-wrapper"> 
+                <div class="swiper-slide"> 
+                  <div class="slide-inner"><a class="banner-link" href="#"><img class="banner" src="/img/promo-slide.jpg"></a></div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner"><a class="banner-link" href="#"><img class="banner" src="/img/promo-slide.jpg"></a></div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner"><a class="banner-link" href="#"><img class="banner" src="/img/promo-slide.jpg"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-controls"> 
+              <div class="prev"> </div>
+              <div class="swiper-scrollbar"></div>
+              <div class="next"> </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container"> 
+          <div class="swiper-block js-categories">
+            <div class="swiper" id="categories-slider">
+              <div class="swiper-wrapper"> 
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-01.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-02.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-03.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-04.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-05.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="slide-inner">
+                    <div class="photo"> <img class="photo-img" src="/img/category-slide-05.jpg"></div>
+                    <div class="category-name">абдоминопластика</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-controls"> 
+              <div class="prev"> </div>
+              <div class="next"> </div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+          <div class="categories">
+            <div class="before-after"> 
+              <div class="before">До</div>
+              <div class="after">После</div>
+            </div>
+            <div class="show-all">Посмотреть все</div>
+          </div>
+        </div>
+      </section>
     </header>
-    <section class="promo"> 
-      <div class="container"> 
-        <div class="swiper"> 
-          <div class="swiper-wrapper"> 
-            <div class="swiper-slide"> 
-              <div class="slide-inner"></div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-controls"> 
-          <div class="prev"> </div>
-          <div class="next"> </div>
-        </div>
-        <div class="swiper-navigation"></div>
-      </div>
-      <div class="container"> 
-        <div class="swiper"> 
-          <div class="swiper-wrapper"> 
-            <div class="swiper-slide"> 
-              <div class="slide-inner"></div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-controls"> 
-          <div class="prev"> </div>
-          <div class="next"> </div>
-        </div>
-        <div class="swiper-navigation"></div>
-        <div class="categories">
-          <div class="before-after"> 
-            <div class="before">До</div>
-            <div class="after">После</div>
-          </div>
-          <div class="show-all">Посмотреть все</div>
-        </div>
-      </div>
-    </section>
     <section class="about-clinic"> 
       <div class="container"> 
         <div class="logo-row"> <a class="logo" href="/"><img class="logo-img" src="/img/logo-green.png"></a></div>
-        <h3 class="slogan">&laquo;Своя клиника&raquo; &mdash; это полный спектр услуг пластической хирургии и эстетической косметологии </h3>
+        <h3 class="slogan">&laquo;Своя клиника&raquo; &mdash; это полный спектр услуг <br>пластической хирургии и эстетической косметологии </h3>
         <div class="info"> 
           <div class="column"> 
             <P class="text">Вы всегда мечтали изменить свою внешность? Сделать более привлекательными черты лица, подтянуть проблемные части тела, приобрести нежную и шелковистую кожу, избавиться от морщин? </P>
@@ -146,50 +192,100 @@
     </section>
     <section class="reviews"> 
       <div class="container"> 
-        <div class="swiper"> 
-          <div class="swiper-wrapper"> 
-            <div class="swiper-slide"> 
-              <div class="slide-inner"> 
-                <div class="photo"> </div>
-                <div class="name">Иванова Марнау</div>
-                <div class="procedure">ринопластика</div>
-                <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+        <div class="swiper-block">
+          <div class="swiper js__reviews">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> 
+                <div class="slide-inner">
+                  <div class="photo"> </div>
+                  <div class="name">Иванова Марнау</div>
+                  <div class="procedure">ринопластика</div>
+                  <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide"> 
-              <div class="slide-inner"> 
-                <div class="photo"> </div>
-                <div class="photo"> </div>
+              <div class="swiper-slide"> 
+                <div class="slide-inner">
+                  <div class="photo"> </div>
+                  <div class="name">Иванова Марнау</div>
+                  <div class="procedure">ринопластика</div>
+                  <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide"> 
-              <div class="slide-inner"> 
-                <div class="photo"> </div>
-                <div class="name">Иванова Марнау</div>
+              <div class="swiper-slide"> 
+                <div class="slide-inner">
+                  <div class="photo"> </div>
+                  <div class="name">Иванова Марнау</div>
+                  <div class="procedure">ринопластика</div>
+                  <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide"> 
-              <div class="slide-inner"> 
-                <div class="photo"> </div>
-                <div class="procedure">ринопластика</div>
+              <div class="swiper-slide"> 
+                <div class="slide-inner">
+                  <div class="photo"> </div>
+                  <div class="name">Иванова Марнау</div>
+                  <div class="procedure">ринопластика</div>
+                  <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide"> 
-              <div class="slide-inner"> 
-                <div class="photo"> </div>
-                <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+              <div class="swiper-slide"> 
+                <div class="slide-inner">
+                  <div class="photo"> </div>
+                  <div class="name">Иванова Марнау</div>
+                  <div class="procedure">ринопластика</div>
+                  <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae doloremque consequatur beatae accusantium repudiandae sapiente unde placeat cupiditate minima.</div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="swiper-controls">
+            <div class="prev"> </div>
+            <div class="swiper-pagination"></div>
+            <div class="next"> </div>
+          </div>
         </div>
-        <div class="swiper-controls">
-          <div class="prev"> </div>
-          <div class="next"> </div>
-        </div>
-        <div class="swiper-navigation"> </div>
         <div class="btn show-all-team">Все отзывыы всех специалистов</div>
-        <div class="banner"> <img class="banner-img" src="/img/banner.jpg"></div>
       </div>
     </section>
+    <section class="feedback"> 
+      <h2 class="section-title">Не знаете к кому записаться?</h2>
+      <div class="subtitle">Задайте вопрос хирургу</div>
+      <form id="feedback" action=""> 
+        <div class="column">
+          <div class="field"> 
+            <input name="name" type="text" placeholder="Ваше имя">
+          </div>
+          <div class="field">{}
+            <input name="phone" type="text" placeholder="+7">
+          </div>
+          <div class="field"> 
+            <input name="email" type="text" placeholder="Электронная почта">
+          </div>
+          <label class="agreements"> 
+            <input type="checkbox" name="argeements">Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с пользовательским соглашением
+          </label>
+        </div>
+        <div class="column">
+          <div class="field">
+            <textarea name="msg"> </textarea>
+          </div>
+          <div class="controls"> 
+            <input name="submit" type="submit" value="Задать вопрос">
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer> 
+      <div class="container"> 
+        <div class="footer-row"><a class="logo" src="/"><img class="logo-img" src="/img/logo-footer.png"></a>
+          <div class="copyrights">© Центр пластической хирургии и стоматологии «Своя Клиника». Все права защищены.</div>
+          <div class="socials"> <a class="tlgm" href="#"> <img class="icon icon-tlgm" src="/img/icon-tlgm.png">
+              <div class="link-text">t.me/svoay_klinika</div></a><a class="vk" href="#"> <img class="icon icon-vk" src="/img/icon-vk.png">
+              <div class="link-text">svoya_klinika</div></a></div>
+          <ul class="footer-menu">
+            <li class="menu-item"> <a class="item-link" href="#">О клинике</a><a class="item-link" href="#">Косметология</a><a class="item-link" href="#">Пластическая хирургия</a><a class="item-link" href="#">Трихология</a><a class="item-link" href="#">Цены</a><a class="item-link" href="#">Акции</a><a class="item-link" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

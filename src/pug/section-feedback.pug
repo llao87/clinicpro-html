@@ -1,0 +1,22 @@
+section.feedback 
+    h2.section-title Не знаете к кому записаться?
+    .subtitle Задайте вопрос хирургу
+
+
+    form#feedback(action="") 
+        .column
+            .field 
+                input(name="name" type="text" placeholder="Ваше имя")
+            .field {}
+                input(name="phone" type="text" placeholder="+7")
+            .field 
+                input(name="email" type="text" placeholder="Электронная почта")
+            label.agreements 
+                input(type="checkbox" name="argeements")
+                | Нажимая на кнопку, я даю согласие на обработку своих персональных данных в соответствии с пользовательским соглашением
+                
+        .column
+            .field
+                textarea(name="msg") 
+            .controls 
+                input(name="submit" type="submit" value="Задать вопрос")

@@ -6,7 +6,11 @@ html(lang="ru")
 			name="viewport"
 			content="width=device-width, initial-scale=1"
 		)
-		title= "title"
+		title= "Своя Клиника"
+		link(
+			href="https://fonts.cdnfonts.com/css/euclid-circular-a"
+			rel="stylesheet"
+		)
 		link(
 			rel="stylesheet",
 			href="css/style.min.css"
@@ -15,9 +19,8 @@ html(lang="ru")
 		script(src="/js/main.js")
 	body
 		include header.pug
-		include section-promo.pug
 		include section-about-clinic.pug
 		include section-team.pug 
 		include section-reviews.pug
-		include section-callback.pug
+		include section-feedback.pug
 		include footer.pug

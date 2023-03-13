@@ -3,15 +3,15 @@ header
         .header-row 
             a.logo(href="/")
                 img.logo-img(src="/img/logo.png")
-            
+
             nav.navigation 
-                a.nav-item(href="#") О клинике
+                a.nav-item.active(href="#") О клинике
                 a.nav-item(href="#") Косметология
                 a.nav-item(href="#") Пластическая хирургия
                 a.nav-item(href="#") Трихология
                 a.nav-item(href="#") Цены
                 a.nav-item(href="#") Контакты
-            
+
             .worktime
                 img.worktime-icon(src="/img/worktime.png")
 
@@ -23,7 +23,75 @@ header
                     img.social-icon(src="/img/icon-tlgm.png")
                 a.social.social--vk(href="#")
                     img.social-icon(src="/img/icon-vk.png")
-            
+
             form.search(method="POST") 
                 input.search-field(type="text")
-                input.search-submit(type="submit")
+                input.search-submit(type="submit" value='')
+
+    section.promo 
+        .container 
+            .swiper-block.js__promo
+                .swiper#promo-slider 
+                    .swiper-wrapper 
+                        .swiper-slide 
+                            .slide-inner
+                                a.banner-link(href="#")
+                                    img.banner(src='/img/promo-slide.jpg')
+                        .swiper-slide 
+                            .slide-inner
+                                a.banner-link(href="#")
+                                    img.banner(src='/img/promo-slide.jpg')
+                        .swiper-slide 
+                            .slide-inner
+                                a.banner-link(href="#")
+                                    img.banner(src='/img/promo-slide.jpg')
+                .swiper-controls 
+                    .prev 
+                    .swiper-scrollbar
+                    .next 
+                
+    section.categories
+        .container 
+            .swiper-block.js-categories
+                .swiper#categories-slider
+                    .swiper-wrapper 
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-01.jpg")
+                                .category-name абдоминопластика
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-02.jpg")
+                                .category-name абдоминопластика
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-03.jpg")
+                                .category-name абдоминопластика
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-04.jpg")
+                                .category-name абдоминопластика
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-05.jpg")
+                                .category-name абдоминопластика
+                        .swiper-slide 
+                            .slide-inner
+                                .photo 
+                                    img.photo-img(src="/img/category-slide-05.jpg")
+                                .category-name абдоминопластика
+                .swiper-controls 
+                    .prev 
+                    .next 
+                    .swiper-scrollbar
+
+            .categories
+                .before-after 
+                    .before До
+                    .after После
+                .show-all Посмотреть все
